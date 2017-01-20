@@ -37,8 +37,8 @@ public class Wso2ResourceServerApplicationV2 {
 	
 	@RequestMapping(value = "/usersecond", method = RequestMethod.POST)
 	public String user ( @RequestBody String person) throws JsonParseException, JsonMappingException, IOException {
-		System.out.println("You are awesome " +person);
-		return person;
+		System.out.println("You are awesome " + person);
+		return person + " This is V2 ";
 		
 	}
 	

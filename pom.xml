@@ -85,6 +85,12 @@
 					</resources>
 					<serverId>docker-hub</serverId>
 					<registryUrl>https://index.docker.io/v1/</registryUrl>
+					
+					<imageTags>
+           			 <imageTag>release/2.0</imageTag>
+           			 <imageTag>latest</imageTag>
+       				 </imageTags>
+					
 				</configuration>
 			</plugin>
 			
